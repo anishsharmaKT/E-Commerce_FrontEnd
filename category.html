@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <!-- validation js -->
-    <!-- <link rel="stylesheet" href="assets/js/form.js"> -->
-
     <!-- fontawesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
         integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
@@ -26,12 +23,11 @@
 
 <body id="top" style=" background-color: #8EC5FC;
 background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 43%);
-
 ">
     <!-- ==============header menu section starts here============== -->
     <section class="header_menu" id="header_menu">
         <div class="container-fluid px-0 shadow">
-            <nav class="navbar navbar-expand-lg navbar-light  py-3  " style="background-color: #a5ccf3;
+            <nav class="navbar navbar-expand-lg navbar-light  py-3  " style="background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);">
                 <a class="navbar-brand pl-5" href="index.html">
                     <img src="./images/new23.png" class="img img-fluid" width="50px" alt="logo">
@@ -50,13 +46,13 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 43%);
                         <li class="nav-item ">
                             <a class="nav-link" href="product.html">Product</a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item active">
                             <a class="nav-link" href="category.html">Category</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About Us</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                         <!-- <li class="nav-item dropdown">
@@ -88,77 +84,130 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 43%);
         </div>
     </section>
     <!-- ==============header menu section ends here============== -->
-
-    <!-- ==============contact starts here============== -->
-    <section class="contact py-5 my-5" id="contact">
+    
+    <!-- ==============category starts here============== -->
+    <section class="products py-5 my-5 " id="products"">
         <div class="container ">
             <div class="section_title text-center mb-5">
-                <h1 class="text-capitalize" style="text-decoration:none">Contact Us</h1>
+                <h1 class="text-capitalize" style="text-decoration:none">Categories</h1>
             </div>
             <div class="row mb-5">
-                <div class="col-md-4 col-12 mt-small-5 mb-small-5">
-                    <div class="border border-success rounded text-center p-3" style="border: 2.5px solid rgb(95, 95, 240)!important; border-radius: 0.5rem!important; background-color: #E0C3FC; box-shadow: 10px 10px 15px 0.5px #bf94e7;">
-                        <div class="mb-4">
-                            <!-- background-image: linear-gradient( 135deg, #FFF3B0 10%, #CA26FF 100%); -->
-                            <i class="fas fa-phone-alt fa-3x"></i>
+                <div class="col-md-4 col-12">
+                    <div class="single_product text-center rounded p-1" style="box-shadow: 10px 10px 15px 1.5px #7f50a8;">
+                        <div class="product_img">
+                            <a href="product.html"><img src="./images/new1.jpeg" class="img img-fluid rounded"
+                                    alt=""></a>
                         </div>
-                        <div>
-                            <h3>Let's Talk</h3>
-                            <p><b>Phone:</b> +91-9876543210</p>
+                        <div class="product-caption my-3">
+                            <h4><a href="product.html">xyz</a></h4>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12 mt-small-5 mb-small-5">
-                    <div class="border border-success rounded text-center p-3" style="border: 2.5px solid rgb(95, 95, 240)!important; border-radius: 0.5rem!important; background-color: #E0C3FC; box-shadow: 10px 10px 15px 0.5px #bf94e7;">
-                        <div class="mb-4">
-                            <i class="fas fa-envelope-open fa-3x"></i>
-                        </div>
-                        <div>
-                            <h3>Drop a Line</h3>
-                            <p><b>Email:</b> xyz@gmail.com</p>
+                        <div class="mt-3">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-12 mt-small-5 mb-small-5">
-                    <div class="border border-success rounded text-center p-3" style="border: 2.5px solid rgb(95, 95, 240)!important; border-radius: 0.5rem!important; background-color: #E0C3FC; box-shadow: 10px 10px 15px 0.5px #bf94e7;">
-                        <div class="mb-4">
-                            <i class="far fa-life-ring fa-3x"></i>
+                <div class="col-md-4 col-12">
+                    <div class="single_product text-center rounded p-1 mt-small-5 mb-small-5" style="box-shadow: 10px 10px 15px 1.5px #7f50a8;">
+                        <div class="product_img">
+                            <a href="product.html"><img src="./images/new8.jpeg" class="img img-fluid rounded"
+                                    alt=""></a>
+                            <div class="new_product">
+                                <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                            </div>
                         </div>
-                        <div>
-                            <h3>24x7 Support</h3>
-                            <p><b>Customer:</b> 1800 101 303</p>
+                        <div class="product-caption my-3">
+                            <h4><a href="product.html">xyz</a></h4>
+                        </div>
+                        <div class="mt-3">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="single_product text-center rounded p-1" style="box-shadow: 10px 10px 15px 1.5px #7f50a8;">
+                        <div class="product_img">
+                            <a href="product.html"><img src="./images/new17.jpeg" class="img img-fluid rounded"
+                                    alt=""></a>
+                            <div class="new_product">
+                                <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                            </div>
+                        </div>
+                        <div class="product-caption my-3">
+                            <h4><a href="product.html">xyz</a></h4>
+                        </div>
+                        <div class="mt-3">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8 col-10 mx-auto mb-3 my-5 py-5 border " style="box-shadow: 0px 0px 25px 5px #bf94e7; border-radius: 0.5rem;">
-                    <h3 class="text-center mb-3">Form</h3>
-                    <form action="contact.html" method="POST" id="form" onsubmit="return formValidation();">
-                        <div class="form-group">
-                            <label>Name</label>
-                            <input name="name" id="name" type="text" placeholder="Name" class="form-control">
+                <div class="col-md-4 col-12" >
+                    <div class="single_product text-center rounded p-1" style="box-shadow: 10px 10px 15px 1.5px #7f50a8;">
+                        <div class="product_img">
+                            <a href="product.html"><img src="./images/new17.jpeg" class="img img-fluid rounded"
+                                    alt=""></a>
+                            <div class="new_product">
+                                <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label>Email address</label>
-                            <input name="email" id="email" type="email" placeholder="Email" class="form-control">
+                        <div class="product-caption my-3">
+                            <h4><a href="product.html">xyz</a></h4>
                         </div>
-                        <div class="form-group">
-                            <label>Message</label>
-                            <textarea name="msg" id="msg" class="form-control" placeholder="Message"></textarea>
+                        <div class="mt-3">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                            </p>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
-                    </form>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="single_product text-center rounded p-1 mt-small-5 mb-small-5" style="box-shadow: 10px 10px 15px 1.5px #7f50a8;">
+                        <div class="product_img">
+                            <a href="product.html"><img src="./images/new1.jpeg" class="img img-fluid rounded"
+                                    alt=""></a>
+                            <div class="new_product">
+                                <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                            </div>
+                        </div>
+                        <div class="product-caption my-3">
+                            <h4><a href="product.html">xyz</a></h4>
+                        </div>
+                        <div class="mt-3">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="single_product text-center rounded p-1" style="box-shadow: 10px 10px 15px 1.5px #7f50a8;">
+                        <div class="product_img">
+                            <a href="product.html"><img src="./images/new8.jpeg" class="img img-fluid rounded"
+                                    alt=""></a>
+                        </div>
+                        <div class="product-caption my-3">
+                            <h4><a href="product.html">xyz</a></h4>
+                        </div>
+                        <div class="mt-3">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </section>
+    <!-- ==============category ends here============== -->
 
-    <!-- ==============contact ends here============== -->
-    <div id="Qna-Bot" class="col-md-8 col-10 mx-auto mb-3 my-5 py-5 border" style="box-shadow: 3px 3px 15px 1.5px #a65ceb; border-radius: 0.5rem; ">
-        <h2 style="text-align: center; color: #9b3cf5; font-family: sans-serif;"><b>Ask Questions Here</b> <br><br></h2>
-        <iframe src='https://webchat.botframework.com/embed/qna-commerce-chatbot-bot?s=5g04w6du5f8.1UX0utJQqRH9WDchfNS6EzQn9Fd03z58uG66ZtX0Bo8' style='min-width: 10rem; width: 100%; min-height: 500px; border-radius: 0.5rem;'></iframe> 
-    </div>
     <!-- ==============footer starts here============== -->
     <section class="footer_section pt-5 pb-2 mt-5" id="footer_section">
         <footer>
@@ -185,7 +234,7 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 43%);
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="javascript:;">Offers & Discounts</a></li>
                                 <li><a href="javascript:;">Get Coupon</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -236,8 +285,6 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 43%);
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
-
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
@@ -247,68 +294,3 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 43%);
 </body>
 
 </html>
-<script>
-
-    //form validation with javascript
-    function formValidation()
-    {
-        //Get Value
-        var name = document.getElementById('name').value.trim();
-        var email = document.getElementById('email').value.trim();
-        var msg = document.getElementById('msg').value.trim();
-
-        var isValidForm = true;       
-
-        //Validation Conditions here
-        if (name.length < 1) {
-            alert("Name is Required!");
-            var isValidForm = false;
-        }       
-        else if (email.length < 1) {
-            alert("Email is Required!");
-            var isValidForm = false;
-        } 
-        else if (msg.length < 1) {
-            alert("Message is Required!");
-            var isValidForm = false;
-        }
-        else
-        {
-            isValidForm = true;
-        }
-
-        return isValidForm;  //if isValidForm is true then form submits else submission is stopped
-        
-    }
-
-    /*
-    //Form validation with Jquery and JavaScript
-    $(document).ready(function () {
-        $('#form').submit(function (e) {
-            //Get Value
-            var name = $('#name').val().trim();
-            var email = $('#email').val().trim();
-            var msg = $('#msg').val().trim();
-            //reset the errors
-            $(".error").remove();
-            var isValidForm = true; 
-            //Validation Conditions here
-            if (name.length < 1) {
-                $('#name').after('<span class="error">This field is required</span>');
-                var isValidForm = false;
-            }
-            
-            if (email.length < 1) {
-                $('#email').after('<span class="error">This field is required</span>');
-                var isValidForm = false;
-            } 
-            if (msg.length < 1) {
-                $('#msg').after('<span class="error">This field is required</span>');
-                var isValidForm = false;
-            }
-            return isValidForm;  //if isValidForm is true then form submits else submission is stopped
-                     
-        });
-    });*/
-
-</script>

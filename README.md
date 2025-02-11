@@ -1,81 +1,27 @@
-# E-commerce Website UI (HTML & CSS)
+# E-Commerce Website Frontend Design
 
-## Description
-The "E-commerce Website UI" is a masterfully designed user interface, developed solely using HTML and CSS. This project serves as a visual tour de force of an online e-commerce platform, elegantly presenting multiple sections and design elements. Although the website focuses exclusively on the user interface and lacks client-side interactions, it adeptly captures the essence of a dynamic online shopping experience.
+This is 10 Page E-commerce Front End website design
 
-## Key Features
+Web Technologies used: HTML, CSS, JS, Bootstrap
 
-- **Home Page**: The landing page introduces users to the project's core features, providing a glimpse into the website's offerings and enticing users to explore further.
+IDE: VS-Code
 
-- **Featured Products**: The "Featured Products" section spotlights a curated selection of popular clothing items, encouraging users to explore trending merchandise.
+Note: Bot is deployed on contact page
 
-- **Banner Displays**: Captivating banners are thoughtfully integrated throughout the site, elevating the visual impact and captivating users with dynamic visuals.
+Industry*:
+Lifestyle
 
-- **New Arrivals**: The "New Arrivals" section offers a preview of the latest additions to the product catalogue, keeping users informed about the ever-changing inventory.
+Project Title*:
+E-Commerce Website Frontend Design
 
-- **Additional Banner Sections**: Additional banners contribute to the immersive experience, infusing diversity and depth into the website's design.
+Problem Statement/Opportunity*:
+An e-commerce company wants to build a sample Front End prototype website for their business as the online shopping industry has been growing at an incredible rate, and so have ecommerce challenges. To build a whole website they have chosen Azure Cloud Platform. Build a website that have: Home Page, Product detail Page, Cart, Product Category Page, Checkout Page along with FAQ Bot deployed on Website for customers help.
 
-- **Newsletter Section**: A dedicated newsletter section invites users to subscribe, showcasing the potential for ongoing customer engagement and interaction.
+Project Description*:
+Core Idea of Project is to build an sample prototype E-Commerce Website with FAQ Bot for a business company with the help of HTML, CSS, JAVASCRIPT, BOOTSTRAP. The business-to-consumer aspect of product commerce (e-commerce) is the most visible business use of the World Wide Web. The primary goal of sample prototype an e-commerce site is to sell goods online with solving problems of customer speedily via FAQ Bot . This project deals with developing an e-commerce website for Online Product Sale. It provides the user with a catalog of different product available for purchase in the store. In order to facilitate online purchase a shopping cart is provided to the user. We are using Azure Technologies with GitHub to complete this project.
 
-- **Shop Page**: The central "Shop" page presents an array of products available for purchase, allowing users to explore and discover a wide range of merchandise.
+Primary Azure Technology*:
+Azure Bot Service, QnA Maker, Static Web Apps,
 
-- **Blog Page**: The "Blog" page provides insightful information through dedicated blog sections, offering users a deeper understanding of the industry and products.
-
-- **About Page**: The "About" section delivers context about the project's identity, complete with an introduction, an app video, and an overview of key project features.
-
-- **Contact Page**: Users can access information about the project's office and staff members in the "Contact" section, fostering a sense of connection and accessibility.
-
-- **Cart Page**: The "Cart" section displays selected products, enabling users to visualize their potential purchases before proceeding to checkout.
-
-- **Single Product Page**: The "Single Product" page showcases a specific product in detail, displaying its name, price, size options, quantity sets, and the option to add the product to the cart. Additional product details enhance the user's understanding.
-
-- **Featured Section**: The "Single Product" page also includes a "Featured Section" that highlights similar products, encouraging users to explore related merchandise.
-
-- **Header**: A consistent header is present across all pages.
-
-- **Footer**: A consistent footer is present across all pages, providing essential links, contact details, and social media connections.
-
-## Tech Stack
-
-- **Frontend**: Crafted using HTML and CSS, the project beautifully demonstrates the expressive capabilities of these technologies in designing engaging and responsive user interfaces.
-
-## Getting Started
-
-To view the "E-commerce Website UI" on your local machine, follow these steps:
-
-1. Clone the repository to your local machine:
-```
-git clone https://github.com/codewithmawais/e-commerce-website-html-css.git
-```
-2. Navigate to the project directory:
-```
-cd e-commerce-website-ui
-```
-3. Start the Application
-```
-Open the index.html file.
-Right-click on the file and select "Open with Live Preview."
-This will launch a live preview of the website in your default web browser.
-```
-
-## Project Intent
-
-The "E-commerce Website UI" project is a creative initiative designed to facilitate the learning and refinement of foundational HTML and CSS skills. The static nature of the website offers an excellent opportunity for developers to comprehend design principles, experiment with styling techniques, and adeptly translate visual concepts into code. While interactivity is absent, the project's fidelity to E-commerce Website UI interface provides an accessible avenue to engage with the essence of a digital platform.
-
-## Conclusion
-
-"E-commerce Website UI" underscores the potential of HTML and CSS in creating realistic, visually accurate user interfaces. Through its emulation of E-commerce Website UI, this project empowers aspiring developers to elevate their skills, unravel design intricacies, and lay a solid groundwork for more intricate web development endeavours.
-
-**Note**: Given the educational nature of this project and its lack of client-side interactions, users are encouraged to focus on design exploration and structural understanding while acknowledging the project's absence of functional interactivity.
-
-## License
-
-This project is not licensed.
-
-## Contributions
-
-Contributions are welcome! If you have ideas for improvements or new features, feel free to submit a pull request.
-
-Explore the "E-commerce Website UI" and immerse yourself in its aesthetic allure, envisioning the possibilities of a fully interactive and seamless online shopping journey.
-
-
+Other Azure Technologies:
+App Service
